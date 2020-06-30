@@ -19,6 +19,7 @@ h1{
     float:left;
     margin-left:5%;
     padding-left:3%;;
+    margin-top: 20px;
 }
 .half-width img{
     width: 100%;
@@ -115,7 +116,7 @@ form{
     margin-left:5%;
     padding-left: 3%;
     box-shadow:10px 10px 40px grey;
-    height: 80%;
+    height:80%;
     border-radius: 10px;
     padding-bottom: 35px;
     
@@ -138,4 +139,80 @@ footer{
 }
 footer a{
     color:#fe346e;
+}
+/* responsive design */
+@media only screen and (max-width: 600px) {
+.half-width{
+    width:80%;
+    float:left;
+    margin-left:15%;
+    padding-left:3%;
+    margin-top: 20px;
+}
+.top-banner{
+    height: 400px;
+}
+
+section{
+    height: 600px;
+    width: 100%;
+}
+.dream-area{
+    background-position: 250px 300px ;
+}
+h1{
+    font-size: 30px;
+}
+#b-img{
+    display:none;
+}
+#contact{
+    width: 72%;
+    margin-left:15%;
+    padding-left:5%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    
+}
+#contact input{
+    width: 86%;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#contact textarea{
+    width: 86%;
+    margin-bottom: 10px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px; 
+    border-radius: 5px; 
+}
+#contact-info{
+    display:none;
+}
+.single-ex h2{
+    text-align: center;
+}
+.single-ex h3{
+    text-align: center;
+}
+.single-ex p{
+    font-size: 14px;
+}
+.single-ex{
+    width:72%;
+    height: 70%;
+    margin-bottom: 20px;
+   
+}
+#footer{
+    background:transparent;
+    padding:0;
+    margin-right: 0;
+}
 }
