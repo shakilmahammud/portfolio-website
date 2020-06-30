@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    text-transform:capitalize ;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.txt-highlight{
+    color:#fe346e;
+}
+.half-width
+{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:3%;;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url(../image/top-banner.png);
+    background-repeat:no-repeat;
+}
+section{
+    height: 600px;
+}
+.link-btn{
+    background-color:#fe346e;
+    background-image:linear-gradient(45deg,lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight:700;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+p{
+    color:dimgray;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.dream-area{
+    background-image:url(../image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+
+}
+.single-ex{
+    box-shadow:10px 10px 40px grey;
+    border-radius: 10px;
+    height: 60%;
+}
+.exp-bg{
+    background-image: url(../image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #fff;
+}
+#full-strack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#front-end{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+#contact{
+    width:50%;
+    margin: 0 auto;
+    margin-left:5%;
+    padding-left: 3%;
+    box-shadow:10px 10px 40px grey;
+    float:left;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+form{
+    margin: 0 auto;
+}
+#contact input{
+    width: 96%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    height: 60px;
+    padding-left: 10px;
+}
+#contact textarea{
+    width: 96%;
+    margin-bottom: 10px;
+    height: 160px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+
+   
+}
+#contact-info{
+    width: 30.66%;
+    float: left;
+    margin-left:5%;
+    padding-left: 3%;
+    box-shadow:10px 10px 40px grey;
+    height: 80%;
+    border-radius: 10px;
+    padding-bottom: 35px;
+    
+}
+#contact-info a{
+    color:#555;
+}
+
+.txt{
+    margin-top: 15px;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color:#999;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+footer a{
+    color:#fe346e;
+}
