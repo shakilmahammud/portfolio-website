@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Raleway:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
 </head>
-<body oncontextmenu="return false;">
+<body oncontextmenu="return false;" onload="disableClick();">
     <!----banner part Start------->
     <section class="top-banner">
         <div class="half-width banner-text">
@@ -88,6 +88,16 @@
     <footer id="footer">2020 &copy;Right All Recieved by <a href="https://www.facebook.com/shakilmahammudofficial0">SHAKIL</a></footer>
 <!---------footer part End----------->
 <!---------js file part start----------->
+<script>
+    function disableClick(){
+      document.onclick=function(event){
+        if (event.button == 2) {
+          alert('Right Click Message');
+          return false;
+        }
+      }
+    }
+  </script>
 <script src="js/custom.js"></script>
 <!---------js file part start----------->
 </body>
